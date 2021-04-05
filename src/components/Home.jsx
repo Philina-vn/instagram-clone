@@ -5,8 +5,8 @@ import Form from './Form';
 import { Context } from "./Context/GlobalContext";
 
 
-function Home({onSubmitPost}) {
-    const { posts, setPosts, createPost} = useContext(Context);
+function Home() {
+    const { posts} = useContext(Context);
   
 
     return (

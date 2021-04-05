@@ -1,0 +1,14 @@
+.card__form {
+    width: 300px;
+    height: 200px;
+    padding: 30px;
+    background-color: #E6B8E9;
+    opacity: 20%;
+    border-radius: 50px;
+}
+
+.card__body {
+    display: flex;
+    flex-direction: column;
+}
+

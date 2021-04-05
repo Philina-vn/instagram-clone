@@ -35,7 +35,7 @@ function Post({post}) {
                     <h3>{post.username}</h3>
                 </div>
 
-                <IconButton onClick={() => onLike(post)} className="" arial-label="reqind"> 
+                <IconButton onClick={() => onLike(post)}  arial-label="reqind"> 
                     { 
                         post.like ?  
                         <FavoriteIcon fontSize="inherit"/> :
